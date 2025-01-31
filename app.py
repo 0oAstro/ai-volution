@@ -19,7 +19,7 @@ def load_news_data(file_path='all_merged.json'):
 def personalize_content(article, user_preferences):
     try:
         response = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model=st.secrets["MODEL_ID"],
             messages=[
                 {"role": "system", "content": "Reframe news with political nuance. Output strict JSON."},
                 {"role": "user", "content": """Rewrite this news content in JSON:
