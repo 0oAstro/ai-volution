@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ai-volution"
+version = "0.1.0"
+description = ""
+authors = ["0oAstro <79555780+0oAstro@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pypdf = "^5.2.0"
+openai = "^1.60.2"
+streamlit = "^1.41.1"
+docx = "^0.2.4"
+python-pptx = "^1.0.2"
+pypdf2 = "^3.0.1"
+python-dotenv = "^1.0.1"
+exception = "^0.1.0"
+py-exceptions = "^1.2.2"
+python-docx = "^1.1.2"
+watchdog = "^6.0.0"
+lxml-html-clean = "^0.4.1"
+newspaper4k = {git = "https://github.com/fasihhussain00/newspaper4k.git", extras = ["all"]}
+tqdm = "^4.67.1"
+scrapy = "^2.12.0"
+groq = "^0.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

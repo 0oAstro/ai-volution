@@ -1,0 +1,8 @@
+.venv/
+.env
+.vscode/
+utils/organized_docs/
+scraper/homepage.html
+scraper/sample_news.html
+scraper/sample-article.html
+.streamlit/secrets.toml
