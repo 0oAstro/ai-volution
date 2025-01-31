@@ -30,5 +30,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "pegasus"
+name = "ai-volution"
 package-mode = false
